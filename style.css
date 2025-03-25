@@ -1,0 +1,48 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto {
+    text-align: justify;
+
+}
+
+#imagens {
+    border: solid, black, 5px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
+
+.imagem {
+    width: 200px;
+    height: 200px;
+    border: solid, black, 5px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+#botao {
+    border: solid, black, 1px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    justify-content: center;
+
+}
+
+#botao:hover {
+    color: white;
+    background-color: black;
+}
